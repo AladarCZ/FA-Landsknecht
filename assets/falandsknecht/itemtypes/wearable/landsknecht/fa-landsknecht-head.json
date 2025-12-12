@@ -1,0 +1,109 @@
+{
+	"code": "fa-landsknecht-head",
+	"class": "ItemWearable",
+	"heldTpIdleAnimation": "holdunderarm",
+	"variantgroups": [
+		{ "code": "metalhead",  "states": ["iron", "meteoriciron", "steel"]},
+		{ "code": "style",  "states": ["barret", "schlappe"]},
+		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain"]},
+	],
+	"allowedVariants": [
+		"*"
+	],
+	"shapeByType": 
+	{
+		"fa-landsknecht-head-*-barret-*": { "base": "entity/armor/landsknecht/landsknechtbarret" },
+		"fa-landsknecht-head-*-schlappe-*": { "base": "entity/armor/landsknecht/landsknechtschlappe" }
+	},
+	"texturesByType": {
+		"fa-landsknecht-head-*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"metalhead": { "base": "armor/entity/landsknecht_{metalhead}" },
+			"plume": { "base": "block/plume/plume{plume}" },
+				}
+	},
+	"storageFlags": 128,
+	"maxstacksize": 4,
+	"attributes": {
+		"visibleDamageEffect": true,
+		"wearableAttachment": true,
+		"clothescategoryByType": {
+			"*": "armorhead",
+		},
+		"disableElementsByType": {
+			"*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow"]
+		},
+		"defaultProtLoss": {
+			perTierRelativeProtectionLoss: [0.03, 0.15],
+			perTierFlatDamageReductionLoss: [0.1, 0.2],
+		},
+		"protectionModifiersByType": {
+			"*-steel-*": {
+				relativeProtection: 0.84,
+				flatDamageReduction: 1.3,
+				highDamageTierResistant: true,
+				protectionTier: 4
+			},
+			"*-meteoriciron-*": {
+				relativeProtection: 0.82,
+				flatDamageReduction: 1.22,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-iron-*": {
+				relativeProtection: 0.82,
+				flatDamageReduction: 1.2,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+		},
+		"statModifiersByType": {
+			"*": {
+				rangedWeaponsAcc: -0.05,
+				rangedWeaponsSpeed: -0.10,
+				walkSpeed: -0.02,
+				healingeffectivness: -0.10,
+				hungerrate: 0.05
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorylandsknecht": ["*"] },
+	"renderAlphaTest": 0.25,
+	"durabilityByType": {
+		"*-iron*": 2000,
+		"*-meteoriciron*": 2500,
+		"*-steel*": 3200,
+	},
+	"fpHandTransformByType": {
+		"*": {
+			translation: { x: 0.4, y: -1.9, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 2.15
+		},
+	},
+	"tpHandTransformByType": {
+		"*": {
+			translation: { x: -0.82, y: -2.2, z: -0.5 },
+			rotation: { x: 18, y: 169, z: 30 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 0.64
+		}
+	},
+	"guiTransformByType": {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.6, y: 1.72, z: 0.5 },
+			scale: 2
+		},
+	},
+	"groundTransformByType": {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.34, y: 1.71, z: 0.5 },
+			scale: 3.1
+		},
+	},
+}

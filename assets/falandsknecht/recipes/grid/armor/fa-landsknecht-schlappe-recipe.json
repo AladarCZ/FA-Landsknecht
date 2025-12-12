@@ -1,0 +1,494 @@
+[
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-red", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-blue", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-white", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-red"
+		}
+	},
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-blue", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-yellow", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-white", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-blue"
+		}
+	},
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-black", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-red", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-white", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-black"
+		}
+	},
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-yellow", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-purple", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-black", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-yellow"
+		}
+	},
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-green", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-red", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-white", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-green"
+		}
+	},
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-purple", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-yellow", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-white", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-purple"
+		}
+	},
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-orange", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-green", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-blue", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-orange"
+		}
+	},
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-brown", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-green", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-orange", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-brown"
+		}
+	},
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-gray", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-pink", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-brown", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-gray"
+		}
+	},
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-white", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-black", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-brown", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-white"
+		}
+	},
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-pink", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-gray", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-brown", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-pink"
+		}
+	},
+	{
+		ingredientPattern: "IAF,GEH,CBD",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic"
+			},
+			"B": { type: "item", code: "game:cloth-plain", quantity: 8
+			},
+			"C": { type: "item", code: "game:cloth-gray", quantity: 4
+			},
+			"D": { type: "item", code: "game:cloth-black", quantity: 4
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht schlappe",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-schlappe-plain"
+		}
+	},
+]
