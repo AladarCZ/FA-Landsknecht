@@ -4,7 +4,7 @@
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
 		{ "code": "metalbody",  "states": ["iron", "meteoriciron", "steel"]},
-		{ "code": "textile",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain"]},
+		{ "code": "textile",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain"]}
 	],
 	"allowedVariants": [
 		"*"
@@ -23,13 +23,16 @@
 	"storageFlags": 128,
 	"maxstacksize": 4,
 	"attributes": {
+		"handbook": { 
+			"groupBy":["fa-landsknecht-head-{metalbody}-*"]
+		},
 		"visibleDamageEffect": true,
 		"wearableAttachment": true,
 		"clothescategoryByType": {
 			"*": "armorbody",
 		},
 		"footStepSoundByType": {
-			"fa-landsknecht-body-*": "game:wearable/brigandine*",
+			"fa-landsknecht-body-*": "game:wearable/brigandine*"
 		},
 		"defaultProtLoss": {
 			perTierRelativeProtectionLoss: [0.03, 0.15],
@@ -37,30 +40,30 @@
 		},
 		"protectionModifiersByType": {
 			"*-steel*": {
-				relativeProtection: 0.84,
-				flatDamageReduction: 1.3,
+				relativeProtection: 0.86,
+				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-meteoriciron*": {
-				relativeProtection: 0.82,
-				flatDamageReduction: 1.22,
+				relativeProtection: 0.855,
+				flatDamageReduction: 2.45,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-iron*": {
-				relativeProtection: 0.82,
-				flatDamageReduction: 1.2,
+				relativeProtection: 0.85,
+				flatDamageReduction: 2.4,
 				highDamageTierResistant: true,
 				protectionTier: 3
-			},
+			}
 		},
 		"statModifiersByType": {
 			"*": {
-				rangedWeaponsAcc: -0.05,
-				rangedWeaponsSpeed: -0.10,
+				rangedWeaponsAcc: -0.07,
+				rangedWeaponsSpeed: -0.14,
 				walkSpeed: -0.02,
-				healingeffectivness: -0.10,
+				healingeffectivness: -0.05,
 				hungerrate: 0.05
 			}
 		}
@@ -68,9 +71,9 @@
 	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorylandsknecht": ["*"] },
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
-		"*-iron*": 2000,
-		"*-meteoriciron*": 2500,
-		"*-steel*": 3200,
+		"*-iron*": 1300,
+		"*-meteoriciron*": 1500,
+		"*-steel*": 2600
 	},
 	"fpHandTransformByType": {
 		"*": {
@@ -86,7 +89,7 @@
 			rotation: { x: 97, y: -168, z: 94 },
 			origin: { x: 0.5, y: 1.5, z: 0.5 },
 			scale: 0.67
-		},
+		}
 	},
 	"guiTransformByType": {
 		"*": {
@@ -94,7 +97,7 @@
 			rotation: { x: -26, y: -46, z: -180 },
 			origin: { x: 0.5, y: 1.11, z: 0.5 },
 			scale: 1.37
-		},
+		}
 	},
 	"groundTransformByType": {
 		"*": {
@@ -102,6 +105,6 @@
 			rotation: { x: 0, y: 0, z: 90 },
 			origin: { x: 0.34, y: 1.12, z: 0.5 },
 			scale: 3.1
-		},
-	},
+		}
+	}
 }

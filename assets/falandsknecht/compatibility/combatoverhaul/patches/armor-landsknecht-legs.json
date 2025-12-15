@@ -12,34 +12,34 @@
             "Layers": ["Outer"],
             "Zones": ["Legs", "Feet"],
             "Resists": {
-              "PiercingAttack": 6,
+              "PiercingAttack": 7,
               "SlashingAttack": 7,
-              "BluntAttack": 5
+              "BluntAttack": 9
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.07,
+              "walkspeed": -0.04,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.06,
-              "hungerrate": 0.13
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.10
             }
           },
           "fa-landsknecht-legs-*iron-*": {
             "Layers": ["Outer"],
             "Zones": ["Legs", "Feet"],
             "Resists": {
-              "PiercingAttack": 5,
+              "PiercingAttack": 6,
               "SlashingAttack": 6,
-              "BluntAttack": 4
+              "BluntAttack": 8
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.07,
+              "walkspeed": -0.04,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.06,
-              "hungerrate": 0.13
+              "healingeffectivness": -0.04,
+              "hungerrate": 0.10
             }
           }
         }
@@ -52,9 +52,9 @@
     "path": "/durabilityByType",
     "dependsOn": [{ "modId": "combatoverhaul" }],
     "value": {
-        "fa-landsknecht-legs-steel-*": 8500,
-        "fa-landsknecht-legs-meteoriciron-*": 6000,
-        "fa-landsknecht-legs-iron-*": 4700,
+        "fa-landsknecht-legs-steel-*": 9700,
+        "fa-landsknecht-legs-meteoriciron-*": 5300,
+        "fa-landsknecht-legs-iron-*": 4500
     }
   },
   {
