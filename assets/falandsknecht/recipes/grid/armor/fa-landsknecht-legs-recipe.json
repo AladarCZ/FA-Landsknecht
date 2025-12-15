@@ -19,7 +19,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
@@ -60,7 +60,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
@@ -101,7 +101,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
@@ -142,7 +142,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
@@ -183,7 +183,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
@@ -224,7 +224,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
@@ -265,7 +265,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
@@ -306,7 +306,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
@@ -347,7 +347,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
@@ -388,7 +388,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
@@ -429,7 +429,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
@@ -470,7 +470,7 @@
 					"iron"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4,
 					name: "metal",
 					allowedVariants: [
 					"steel",
