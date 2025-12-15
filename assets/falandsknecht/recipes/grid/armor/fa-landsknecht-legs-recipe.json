@@ -20,6 +20,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -55,6 +61,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -90,6 +102,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -125,6 +143,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -160,6 +184,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -195,6 +225,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -230,6 +266,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -265,6 +307,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -300,6 +348,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -335,6 +389,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -370,6 +430,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -405,6 +471,12 @@
 				]
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-*", quantity: 4
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
