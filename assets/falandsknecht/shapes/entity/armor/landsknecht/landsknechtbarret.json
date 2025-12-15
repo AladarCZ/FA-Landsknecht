@@ -10,8 +10,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-			"metalhead": "armor/entity/landsknecht_{metalhead}",
-			"plume": "block/plume/plume{plume}"
+			"metalhead": "armor/entity/landsknecht_steel",
+			"plume": "block/plume/plumered"
 	},
 	"elements": [
 		{

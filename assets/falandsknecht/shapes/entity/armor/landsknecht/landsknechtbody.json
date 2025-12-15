@@ -9,8 +9,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-			"landsknechtbody": "armor/entity/landsknecht_{metalbody}",
-			"textile": "block/textiles/textile{textile}"
+			"landsknechtbody": "armor/entity/landsknecht_steel",
+			"textile": "block/textiles/textilered"
 	},
 	"elements": [
 		{

@@ -10,8 +10,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-			"landsknechtlegs": "armor/entity/landsknecht_{metallegs}" ,
-			"line": "block/lines/line{line}" 
+			"landsknechtlegs": "armor/entity/landsknecht_steel" ,
+			"line": "block/lines/linered" 
 	},
 	"elements": [
 		{

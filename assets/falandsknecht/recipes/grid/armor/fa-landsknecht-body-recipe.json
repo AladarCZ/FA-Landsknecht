@@ -3,7 +3,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-red", quantity: 12
 			},
@@ -44,7 +44,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-blue", quantity: 12
 			},
@@ -85,7 +85,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-black", quantity: 12
 			},
@@ -126,7 +126,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-yellow", quantity: 12
 			},
@@ -167,7 +167,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-green", quantity: 12
 			},
@@ -208,7 +208,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-purple", quantity: 12
 			},
@@ -249,7 +249,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-orange", quantity: 12
 			},
@@ -290,7 +290,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-brown", quantity: 12
 			},
@@ -331,7 +331,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-gray", quantity: 12
 			},
@@ -372,7 +372,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-white", quantity: 12
 			},
@@ -413,7 +413,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-pink", quantity: 12
 			},
@@ -454,7 +454,7 @@
 		ingredientPattern: "BAH,CEG,DFI",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-landsknecht-schematic"
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
 			},
 			"B": { type: "item", code: "game:cloth-plain", quantity: 12
 			},
