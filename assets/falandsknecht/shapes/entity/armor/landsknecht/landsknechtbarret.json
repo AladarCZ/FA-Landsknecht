@@ -8,10 +8,10 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
-		"metalhead": [64,64],
-		"plume": [64,64]
 	},
 	"textures": {
+			"metalhead": "armor/entity/landsknecht_{metalhead}",
+			"plume": "block/plume/plume{plume}"
 	},
 	"elements": [
 		{

@@ -7,10 +7,10 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
-		"landsknechtbody": [64,64],
-		"textile": [64,64]
 	},
 	"textures": {
+			"landsknechtbody": "armor/entity/landsknecht_{metalbody}",
+			"textile": "block/textiles/textile{textile}"
 	},
 	"elements": [
 		{
