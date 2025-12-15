@@ -1,0 +1,89 @@
+[
+  {
+    "file": "falandsknecht:itemtypes/wearable/landsknecht/fa-landsknecht-body",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "fa-landsknecht-body-steel-*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 7,
+              "BluntAttack": 5
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": -0.05,
+              "steadyAim": -0.08,
+              "healingeffectivness": -0.05,
+              "hungerrate": 0.18
+            }
+          },
+          "fa-landsknecht-body-*iron-*": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 6,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": -0.05,
+              "steadyAim": -0.08,
+              "healingeffectivness": -0.05,
+              "hungerrate": 0.18
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "falandsknecht:itemtypes/wearable/landsknecht/fa-landsknecht-body",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": {
+        "fa-landsknecht-body-steel-*": 12500,
+        "fa-landsknecht-body-meteoriciron-*": 8000,
+        "fa-landsknecht-body-iron-*": 6500
+    }
+  },
+  {
+    "file": "falandsknecht:itemtypes/wearable/landsknecht/fa-landsknecht-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "falandsknecht:itemtypes/wearable/landsknecht/fa-landsknecht-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "falandsknecht:itemtypes/wearable/landsknecht/fa-landsknecht-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "falandsknecht:itemtypes/wearable/landsknecht/fa-landsknecht-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-body-*": 16 }
+  },  
+
+]

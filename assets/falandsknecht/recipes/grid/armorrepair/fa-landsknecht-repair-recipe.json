@@ -105,6 +105,108 @@
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
+			"B": { type: "item", code: "fa-landsknecht-head-steel-burgonet-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 4
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "Landsknecht barret repair",
+		output: { type: "item", code: "fa-landsknecht-head-steel-burgonet-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-landsknecht-head-meteoriciron-burgonet-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 4
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "Landsknecht barret repair",
+		output: { type: "item", code: "fa-landsknecht-head-meteoriciron-burgonet-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-landsknecht-head-iron-burgonet-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 4
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "Landsknecht barret repair",
+		output: { type: "item", code: "fa-landsknecht-head-iron-burgonet-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
 			"B": { type: "item", code: "fa-landsknecht-head-steel-schlappe-*",  
 						name: "color", allowedVariants: [
 					"plain",

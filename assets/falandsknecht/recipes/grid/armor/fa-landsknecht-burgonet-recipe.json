@@ -1,0 +1,494 @@
+[
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-red", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-blue", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-white", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-red"
+		}
+	},
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-blue", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-yellow", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-white", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-blue"
+		}
+	},
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-black", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-red", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-white", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-black"
+		}
+	},
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-yellow", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-purple", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-black", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-yellow"
+		}
+	},
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-green", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-red", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-white", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-green"
+		}
+	},
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-purple", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-yellow", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-white", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-purple"
+		}
+	},
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-orange", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-green", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-blue", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-orange"
+		}
+	},
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-brown", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-green", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-orange", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-brown"
+		}
+	},
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-gray", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-pink", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-brown", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-gray"
+		}
+	},
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-white", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-black", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-brown", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-white"
+		}
+	},
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-pink", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-gray", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-brown", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-pink"
+		}
+	},
+	{
+		ingredientPattern: "GBH,CED,FAI",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-landsknecht-schematic", returnedStack: { "type": "item", "code": "fa-landsknecht-schematic" }
+			},
+			"B": { type: "item", code: "game:cloth-plain", quantity: 2
+			},
+			"C": { type: "item", code: "game:cloth-gray", quantity: 2
+			},
+			"D": { type: "item", code: "game:cloth-black", quantity: 2
+			},
+			"E": { type: "item", code: "game:armor-head-brigandine-*", 
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"F": { type: "item", code: "game:metalplate-*", quantity: 2,
+					name: "metal",
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"H": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Landsknecht burgonet",
+		output: { type: "item", code: "fa-landsknecht-head-{metal}-burgonet-plain"
+		}
+	},
+]
